@@ -12,7 +12,6 @@ public class KeresFeldolgozoTest {
 
     @Test
     public void feldolgoz_whenEmptyOperator_thenGiveErrorString() {
-        String input = "";
 
         Calculator calculator = Mockito.mock(Calculator.class);
         KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
@@ -56,6 +55,69 @@ public class KeresFeldolgozoTest {
         Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
         Assert.assertThat(eredmeny.getEredmeny(), is(7.));
     }
+
+    @Test
+    public void feldolgoz_whenKivonas_thenGiveValidResult() {
+
+        Calculator calculator = Mockito.mock(Calculator.class);
+        when(calculator.subtract(5, 2)).thenReturn(3.);
+
+        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
+
+        InputValues inputValues = new InputValues();
+        inputValues.setMuvelet("-");
+        inputValues.setOperandus1(5);
+        inputValues.setOperandus2(2);
+
+        OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
+
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
+        Assert.assertThat(eredmeny.getEredmeny(), is(3.));
+    }
+
+    @Test
+    public void feldolgoz_whenSzorzas_thenGiveValidResult() {
+
+        Calculator calculator = Mockito.mock(Calculator.class);
+        when(calculator.multiply(5, 2)).thenReturn(10.);
+
+        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
+
+        InputValues inputValues = new InputValues();
+        inputValues.setMuvelet("*");
+        inputValues.setOperandus1(5);
+        inputValues.setOperandus2(2);
+
+        OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
+
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
+        Assert.assertThat(eredmeny.getEredmeny(), is(10.));
+    }
+
+    /*
+
+    @Test
+    public void feldolgoz_whenOsztas_thenGiveValidResult() {
+
+        Calculator calculator = Mockito.mock(Calculator.class);
+        when(calculator.divide(10, 2)).thenReturn(5.);
+
+        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
+
+        InputValues inputValues = new InputValues();
+        inputValues.setMuvelet("/");
+        inputValues.setOperandus1(10);
+        inputValues.setOperandus2(2);
+
+        OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
+
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
+        Assert.assertThat(eredmeny.getEredmeny(), is(5.));
+    }
+
+    */
+
+
 
 
 }

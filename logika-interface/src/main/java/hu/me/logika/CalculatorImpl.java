@@ -1,7 +1,5 @@
 package hu.me.logika;
 
-import hu.me.logika.Calculator;
-
 public class CalculatorImpl implements Calculator {
 
     public double add(double a, double b) {
@@ -16,10 +14,7 @@ public class CalculatorImpl implements Calculator {
         return a * b;
     }
 
-    public double divide(double a, double b){
-
-        return a / b;
-    }
+    public double divide(double a, double b){ return a / b; }
 
 }
 
