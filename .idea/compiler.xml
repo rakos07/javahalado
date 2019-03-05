@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jarmu_app" />
+        <module name="jarmu_logika" />
+        <module name="jarmu_values" />
         <module name="kapcsolattarto" />
         <module name="logika-interface" />
       </profile>

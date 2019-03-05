@@ -11,6 +11,9 @@
   <modules>
     <module>logika-interface</module>
     <module>kapcsolattarto</module>
+    <module>jarmu_values</module>
+      <module>jarmu_app</module>
+    <module>jarmu_logika</module>
   </modules>
 
   <name>logika</name>

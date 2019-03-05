@@ -13,7 +13,7 @@ public class KeresFeldolgozo {
     public OutputValues feldolgoz(InputValues input) {
         OutputValues outputValues = new OutputValues();
 
-        if(input != null || input.getMuvelet() != null || input.getMuvelet().isEmpty()) {
+        if(input == null || input.getMuvelet() == null || input.getMuvelet().isEmpty()) {
             outputValues.setHibakod(Hibakod.HibasMuveletiJel);
         }
 
@@ -54,6 +54,7 @@ public class KeresFeldolgozo {
                             input.getOperandus2()
                     )
             );
+            outputValues.setHibakod(Hibakod.NincsHiba);
         }
 
 
