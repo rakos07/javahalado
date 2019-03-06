@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e92db38-8a65-4693-a3e2-151a8c3733e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_app/target/classes/hu/me/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_app/target/test-classes/hu/me/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/Kapcsolat.class" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/Kapcsolat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/test-classes/hu/me/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/inputJarmu.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/OutputJarmu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/target/classes/hu/me/inputJarmu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/target/classes/hu/me/outputJarmu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jarmu_values/target/test-classes/hu/me/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/target/test-classes/hu/me/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/InputValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/InputValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/KeresFeldolgozo.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/KeresFeldolgozo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/test-classes/hu/me/KeresFeldolgozoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/test-classes/hu/me/KeresFeldolgozoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="1e92db38-8a65-4693-a3e2-151a8c3733e6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/kapcsolattarto/target/" />
@@ -58,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -79,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -495,7 +471,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551883547781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551885079026" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -618,7 +594,7 @@
       <workItem from="1551739136861" duration="4892000" />
       <workItem from="1551785683599" duration="1504000" />
       <workItem from="1551826590551" duration="1766000" />
-      <workItem from="1551878816513" duration="5718000" />
+      <workItem from="1551878816513" duration="6175000" />
     </task>
     <servers />
   </component>
@@ -628,12 +604,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49860000" />
+    <option name="totallyTimeSpent" value="50317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21721587" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21721587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -650,7 +626,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966374" visible="true" weight="0.31903484" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49966374" visible="true" weight="0.31903484" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003362" side_tool="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32707775" />
       <window_info anchor="bottom" id="CheckStyle" order="13" />
@@ -851,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuLogikaImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -905,11 +874,18 @@
     <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuLogikaImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -925,8 +901,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
