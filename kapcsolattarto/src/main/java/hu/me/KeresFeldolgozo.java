@@ -13,8 +13,12 @@ public class KeresFeldolgozo {
     public OutputValues feldolgoz(InputValues input) {
         OutputValues outputValues = new OutputValues();
 
-        if(input == null || input.getMuvelet() == null || input.getMuvelet().isEmpty()) {
+        if(input.getMuvelet() == null || input.getMuvelet().isEmpty()) {
             outputValues.setHibakod(Hibakod.HibasMuveletiJel);
+        }
+
+        if(input.getOperandus1() == null || input.getOperandus2() == null) {
+            outputValues.setHibakod(Hibakod.HianyzoOperandus);
         }
 
         if("+".equals(input.getMuvelet())) {
@@ -55,8 +59,10 @@ public class KeresFeldolgozo {
                     )
             );
             outputValues.setHibakod(Hibakod.NincsHiba);
+            if (input.getOperandus1() == 0 || input.getOperandus2() == 0){
+                outputValues.setHibakod(Hibakod.NullavalValoOsztas);
+            }
         }
-
 
         return outputValues;
     }

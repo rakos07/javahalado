@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e92db38-8a65-4693-a3e2-151a8c3733e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jarmu_app/jarmu_app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jarmu_app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jarmu_logika/jarmu_logika.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jarmu_logika/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jarmu_values/jarmu_values.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jarmu_values/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_app/target/classes/hu/me/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_app/target/test-classes/hu/me/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/Kapcsolat.class" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_logika/target/classes/hu/me/Kapcsolat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_logika/target/test-classes/hu/me/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/inputJarmu.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/OutputJarmu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/target/classes/hu/me/inputJarmu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/target/classes/hu/me/outputJarmu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jarmu_values/target/test-classes/hu/me/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/jarmu_values/target/test-classes/hu/me/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/InputValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/InputValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/KeresFeldolgozo.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/classes/hu/me/KeresFeldolgozo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kapcsolattarto/target/test-classes/hu/me/KeresFeldolgozoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/kapcsolattarto/target/test-classes/hu/me/KeresFeldolgozoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,34 +43,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_values/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_app/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_logika/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/App.java">
+        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/inputJarmu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="117" selection-start-line="117" selection-end-line="133" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="390">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#186#187#0" expanded="true" />
@@ -77,14 +67,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            <state relative-caret-position="164">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -108,16 +128,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java">
+        <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/JarmuHiba.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -127,9 +164,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -142,14 +179,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/hu/me/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" />
         <option value="$PROJECT_DIR$/logika-interface/pom.xml" />
         <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java" />
         <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/Hibakod.java" />
         <option value="$PROJECT_DIR$/object_mapper/pom.xml" />
         <option value="$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/Calculator.java" />
         <option value="$PROJECT_DIR$/object_mapper/src/main/java/hu/me/CalculatorImpl.java" />
-        <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" />
         <option value="$PROJECT_DIR$/object_mapper/src/main/java/hu/me/App.java" />
         <option value="$PROJECT_DIR$/object_mapper/src/main/java/hu/me/ObjectMapper.java" />
         <option value="$PROJECT_DIR$/object_mapper/src/main/java/hu/me/Object_Mapper.java" />
@@ -157,14 +192,22 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kapcsolattarto/pom.xml" />
         <option value="$PROJECT_DIR$/logika-interface/src/main/java/hu/me/logika/CalculatorImpl.java" />
-        <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" />
-        <option value="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" />
-        <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java" />
         <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/inputJarmu.java" />
-        <option value="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" />
         <option value="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuLogika.java" />
         <option value="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuLogikaImpl.java" />
         <option value="$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hu/me/AppTest.java" />
+        <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java" />
+        <option value="$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java" />
+        <option value="$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java" />
+        <option value="$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java" />
+        <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java" />
+        <option value="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuHiba.java" />
+        <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/OutputJarmu.java" />
+        <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java" />
+        <option value="$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/JarmuHiba.java" />
+        <option value="$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java" />
+        <option value="$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java" />
       </list>
     </option>
   </component>
@@ -192,9 +235,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="767" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,20 +263,25 @@
             <path>
               <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
               <item name="javahalado" type="462c0819:PsiDirectoryNode" />
-              <item name="jarmu_app" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
               <item name="javahalado" type="462c0819:PsiDirectoryNode" />
-              <item name="jarmu_app" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
               <item name="javahalado" type="462c0819:PsiDirectoryNode" />
-              <item name="jarmu_app" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -241,9 +289,33 @@
             <path>
               <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
               <item name="javahalado" type="462c0819:PsiDirectoryNode" />
-              <item name="jarmu_app" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_logika" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -279,6 +351,136 @@
               <item name="jarmu_values" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_values" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_values" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="jarmu_values" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="kapcsolattarto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="me" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javahalado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javahalado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="me" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -287,12 +489,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551827389252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551883547781" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -313,12 +516,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KeresFeldolgozoTest.feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hu.me.App" />
-      <module name="jarmu_app" />
+      <module name="logika" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/hu/me" />
       <extension name="coverage">
         <pattern>
@@ -334,7 +537,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hu.me.App" />
-      <module name="logika" />
+      <module name="jarmu_app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/hu/me" />
       <extension name="coverage">
         <pattern>
@@ -371,8 +574,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KeresFeldolgozoTest.feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kapcsolattarto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.me" />
+      <option name="MAIN_CLASS_NAME" value="hu.me.KeresFeldolgozoTest" />
+      <option name="METHOD_NAME" value="feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KeresFeldolgozoTest.feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
@@ -397,27 +617,32 @@
       <workItem from="1551736238682" duration="1071000" />
       <workItem from="1551739136861" duration="4892000" />
       <workItem from="1551785683599" duration="1504000" />
-      <workItem from="1551826590551" duration="816000" />
+      <workItem from="1551826590551" duration="1766000" />
+      <workItem from="1551878816513" duration="5718000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="KeresFeldolgozoTest_feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult - 2019.03.06 at 15h 23m 22s.xml">
+      <configuration name="KeresFeldolgozoTest.feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43192000" />
+    <option name="totallyTimeSpent" value="49860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2535306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21721587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22117962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42761394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,9 +650,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966374" weight="0.32707775" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966374" visible="true" weight="0.31903484" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003362" side_tool="true" weight="0.32841823" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32707775" />
+      <window_info anchor="bottom" id="CheckStyle" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,6 +664,38 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21721587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42761394" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966374" weight="0.31903484" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5003362" side_tool="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32707775" />
+      <window_info anchor="bottom" id="CheckStyle" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32954547" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -450,34 +708,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/hu/me/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/App.java" />
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/object_mapper/pom.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/hu/me/Calculator.java" />
     <entry file="file://$PROJECT_DIR$/object_mapper/src/main/java/hu/me/Object_Mapper.java" />
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/Hibakod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logika-interface/src/test/java/hu/me/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -513,26 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logika-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -540,33 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hu/me/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,10 +773,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hu/me/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hu/me/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/InputValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/Hibakod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuHiba.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/OutputValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_values/src/test/java/hu/me/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/JarmuLogikaImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/InputJarmu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/OutputJarmu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,10 +888,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/JarmuHiba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/main/java/hu/me/KeresFeldolgozo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jarmu_logika/src/main/java/hu/me/Kapcsolat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="390">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -611,30 +913,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/inputJarmu.java">
+    <entry file="file://$PROJECT_DIR$/kapcsolattarto/src/test/java/hu/me/KeresFeldolgozoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jarmu_values/src/main/java/hu/me/outputJarmu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="117" selection-start-line="117" selection-end-line="133" selection-end-column="5" />
           <folding>
-            <element signature="e#103#104#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jarmu_app/src/main/java/hu/me/App.java">
+    <entry file="file://$PROJECT_DIR$/jarmu_logika/src/test/java/hu/me/KapcsolatTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state relative-caret-position="426">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

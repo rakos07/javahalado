@@ -9,7 +9,7 @@ public class App {
         Kapcsolat kapcsolat = new Kapcsolat(jarmuLogika);
         String JarmuJson = "{ \"suly\" : 300 , \"hozzaad\" : false , \"sulyhozza\" : 1}";
         ObjectMapper objectMapperJson = new ObjectMapper();
-        inputJarmu inputJarmu = objectMapperJson.readValue(JarmuJson, inputJarmu.class);
+        InputJarmu inputJarmu = objectMapperJson.readValue(JarmuJson, InputJarmu.class);
         System.out.println("Kérem adja meg a jármű súlyát!");
         inputJarmu.setSuly(sc.nextInt());
         System.out.println("Kérem adja meg, hogy szeretne-e súly hozzáadni? (true igen, false nem)");

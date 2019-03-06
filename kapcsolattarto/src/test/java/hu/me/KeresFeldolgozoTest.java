@@ -31,10 +31,12 @@ public class KeresFeldolgozoTest {
         KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
 
         InputValues inputValues = new InputValues();
+        inputValues.setOperandus1(null);
+        inputValues.setOperandus2(null);
 
         OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
 
-        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.HibasMuveletiJel));
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.HianyzoOperandus));
     }
 
     @Test
@@ -47,8 +49,8 @@ public class KeresFeldolgozoTest {
 
         InputValues inputValues = new InputValues();
         inputValues.setMuvelet("+");
-        inputValues.setOperandus1(3);
-        inputValues.setOperandus2(4);
+        inputValues.setOperandus1(3.0);
+        inputValues.setOperandus2(4.0);
 
         OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
 
@@ -66,8 +68,8 @@ public class KeresFeldolgozoTest {
 
         InputValues inputValues = new InputValues();
         inputValues.setMuvelet("-");
-        inputValues.setOperandus1(5);
-        inputValues.setOperandus2(2);
+        inputValues.setOperandus1(5.0);
+        inputValues.setOperandus2(2.0);
 
         OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
 
@@ -85,8 +87,8 @@ public class KeresFeldolgozoTest {
 
         InputValues inputValues = new InputValues();
         inputValues.setMuvelet("*");
-        inputValues.setOperandus1(5);
-        inputValues.setOperandus2(2);
+        inputValues.setOperandus1(5.0);
+        inputValues.setOperandus2(2.0);
 
         OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
 
@@ -104,13 +106,48 @@ public class KeresFeldolgozoTest {
 
         InputValues inputValues = new InputValues();
         inputValues.setMuvelet("/");
-        inputValues.setOperandus1(10);
-        inputValues.setOperandus2(2);
+        inputValues.setOperandus1(10.0);
+        inputValues.setOperandus2(2.0);
 
         OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
 
         Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
         Assert.assertThat(eredmeny.getEredmeny(), is(5.));
+    }
+
+    @Test
+    public void feldolgoz_whenOsztasOperandus1isnull_thenGiveValidResult() {
+
+        Calculator calculator = Mockito.mock(Calculator.class);
+        when(calculator.divide(10, 0)).thenReturn(0.0);
+
+        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
+
+        InputValues inputValues = new InputValues();
+        inputValues.setMuvelet("/");
+        inputValues.setOperandus1(10.0);
+        inputValues.setOperandus2(0.0);
+
+        OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
+
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NullavalValoOsztas));
+    }
+
+    @Test
+    public void feldolgoz_whenOsztasOperandus2isnull_thenGiveValidResult() {
+
+        Calculator calculator = Mockito.mock(Calculator.class);
+        when(calculator.divide(0, 10)).thenReturn(0.0);
+        KeresFeldolgozo keresFeldolgozo = new KeresFeldolgozo(calculator);
+
+        InputValues inputValues = new InputValues();
+        inputValues.setMuvelet("/");
+        inputValues.setOperandus1(0.0);
+        inputValues.setOperandus2(10.0);
+
+        OutputValues eredmeny = keresFeldolgozo.feldolgoz(inputValues);
+
+        Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NullavalValoOsztas));
     }
 
 

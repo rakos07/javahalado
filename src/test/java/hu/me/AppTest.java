@@ -6,6 +6,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+import org.mockito.Mockito;
 
 /**
  * Unit test for simple App.
@@ -27,4 +28,5 @@ public class AppTest
         String b = "FOO";
         assertThat(a, equalToIgnoringCase(b));
     }
+
 }

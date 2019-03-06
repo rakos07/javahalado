@@ -14,19 +14,19 @@ public class InputValues {
         this.muvelet = muvelet;
     }
 
-    public double getOperandus1() {
+    public Double getOperandus1() {
         return operandus1;
     }
 
-    public void setOperandus1(double operandus1) {
+    public void setOperandus1(Double operandus1) {
         this.operandus1 = operandus1;
     }
 
-    public double getOperandus2() {
+    public Double getOperandus2() {
         return operandus2;
     }
 
-    public void setOperandus2(double operandus2) {
+    public void setOperandus2(Double operandus2) {
         this.operandus2 = operandus2;
     }
 }
