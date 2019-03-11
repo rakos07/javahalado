@@ -11,6 +11,7 @@
   <modules>
     <module>logika-interface</module>
     <module>kapcsolattarto</module>
+    <module>webapp</module>
   </modules>
 
   <name>logika</name>

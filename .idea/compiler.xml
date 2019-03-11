@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="kapcsolattarto" />
         <module name="logika-interface" />
+        <module name="webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

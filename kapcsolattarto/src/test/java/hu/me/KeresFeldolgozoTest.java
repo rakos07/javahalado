@@ -94,8 +94,6 @@ public class KeresFeldolgozoTest {
         Assert.assertThat(eredmeny.getEredmeny(), is(10.));
     }
 
-    /*
-
     @Test
     public void feldolgoz_whenOsztas_thenGiveValidResult() {
 
@@ -114,13 +112,4 @@ public class KeresFeldolgozoTest {
         Assert.assertThat(eredmeny.getHibakod(), is(Hibakod.NincsHiba));
         Assert.assertThat(eredmeny.getEredmeny(), is(5.));
     }
-
-    */
-
-
-
-
 }
-
-// kivonás szorzás osztás
-// nézni kódlefedettség, hogyan
