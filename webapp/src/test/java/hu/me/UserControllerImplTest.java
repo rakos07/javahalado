@@ -185,7 +185,7 @@ public class UserControllerImplTest {
         expectedUsers.add(userDTO);
 
 
-        Assert.assertEquals("Save user is succesful", expectedUsers, users);
+        Assert.assertEquals("Save only valid user", expectedUsers, users);
     }
 
 }
