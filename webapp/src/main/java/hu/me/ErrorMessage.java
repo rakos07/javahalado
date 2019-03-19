@@ -1,7 +1,11 @@
 package hu.me;
 
 public enum ErrorMessage {
-    NoError,
-    TooLowCharacters,
-    CharactersCountainSpace,
+    Valid,
+    PasswordContainsSpace,
+    PasswordNull,
+    PasswordTooShort,
+    UsernameContainsSpace,
+    UsernameNull,
+    UserNameTooShort
 }
