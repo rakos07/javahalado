@@ -4,7 +4,9 @@ import hu.me.UserDTO;
 import hu.me.Validator;
 import hu.me.ErrorMessage;
 import hu.me.ValidatorResponse;
+import org.springframework.stereotype.Service;
 
+@Service
 public class PasswordValidatorTooShort implements Validator {
     @Override
     public ValidatorResponse validate(UserDTO userDTO) {

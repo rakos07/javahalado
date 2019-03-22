@@ -1,8 +1,12 @@
 package hu.me;
 
 public class ValidatorResponse {
+
     private boolean valid;
+
+
     private ErrorMessage errorMessage;
+
 
     public ValidatorResponse(boolean valid, ErrorMessage errorMessage){
         this.valid = valid;

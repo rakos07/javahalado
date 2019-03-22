@@ -1,8 +1,13 @@
 package hu.me;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.Objects;
 
+@Service
 public class UserDTO {
+
     private String username;
     private String password;
 
@@ -22,7 +27,7 @@ public class UserDTO {
         this.password = password;
     }
 
-    @Override
+    @Autowired
     public String toString() {
         return "UserDTO{" +
                 "username='" + username + '\'' +
@@ -30,7 +35,7 @@ public class UserDTO {
                 '}';
     }
 
-    @Override
+    @Autowired
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -39,7 +44,7 @@ public class UserDTO {
                 Objects.equals(password, userDTO.password);
     }
 
-    @Override
+    @Autowired
     public int hashCode() {
         return Objects.hash(username, password);
     }

@@ -1,8 +1,12 @@
 package hu.me;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class UserControllerImpl implements UserController {
 
     private List<UserDTO> userDTOStore;
@@ -10,11 +14,13 @@ public class UserControllerImpl implements UserController {
     private List<ValidatorResponse> validatorResponses;
     private List<ErrorMessage> errorResponses;
 
+    @Autowired
     public UserControllerImpl(List<Validator> validators) {
         this.userDTOStore = new ArrayList<>();
         this.validators = validators;
     }
 
+    @Autowired
     public List<ErrorMessage> saveUser(UserDTO userDTO){
         validatorResponses = new ArrayList<>();
         errorResponses = new ArrayList<>();
@@ -32,7 +38,10 @@ public class UserControllerImpl implements UserController {
         }
 
         if(!errors){
-            userDTOStore.add(userDTO);
+            if(validators.isEmpty()) {
+                userDTOStore.add(userDTO);
+            }
+            else userDTOStore.add(userDTO);
             return errorResponses;
         }
         else {
@@ -40,6 +49,7 @@ public class UserControllerImpl implements UserController {
         }
     }
 
+    @Autowired
     public List<UserDTO> getUserDTOStore() {
         return userDTOStore;
     }

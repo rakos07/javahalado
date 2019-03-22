@@ -1,4 +1,4 @@
-package hu.me.logika;
+package hu.me;
 
 public interface Calculator {
 

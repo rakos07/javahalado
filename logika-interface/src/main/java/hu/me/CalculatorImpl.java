@@ -1,5 +1,8 @@
-package hu.me.logika;
+package hu.me;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class CalculatorImpl implements Calculator {
 
     public double add(double a, double b) {

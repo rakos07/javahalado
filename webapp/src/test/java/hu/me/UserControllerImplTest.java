@@ -8,6 +8,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class UserControllerImplTest {
 
     public UserController userController;
@@ -17,21 +18,13 @@ public class UserControllerImplTest {
     @Before
     public void init() {
 
-        UsernameValidatorNull usernameValidatorNull = new UsernameValidatorNull();
-        PasswordValidatorNull passwordValidatorNull = new PasswordValidatorNull();
-        UsernameValidatorTooShort usernameValidatorTooShort = new UsernameValidatorTooShort();
-        PasswordValidatorTooShort passwordValidatorTooShort = new PasswordValidatorTooShort();
-        UsernameValidatorNoSpace usernameValidatorNoSpace = new UsernameValidatorNoSpace();
-        PasswordValidatorNoSpace passwordValidatorNoSpace = new PasswordValidatorNoSpace();
-
-
         validators = new ArrayList<>();
-        validators.add(usernameValidatorNull);
-        validators.add(passwordValidatorNull);
-        validators.add(usernameValidatorTooShort);
-        validators.add(passwordValidatorTooShort);
-        validators.add(usernameValidatorNoSpace);
-        validators.add(passwordValidatorNoSpace);
+        validators.add(new UsernameValidatorNull());
+        validators.add(new PasswordValidatorNull());
+        validators.add(new UsernameValidatorTooShort());
+        validators.add(new PasswordValidatorTooShort());
+        validators.add(new UsernameValidatorNoSpace());
+        validators.add(new PasswordValidatorNoSpace());
         userController = new UserControllerImpl(validators);
     }
 
