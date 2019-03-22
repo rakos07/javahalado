@@ -9,13 +9,19 @@ import java.io.IOException;
 @Service
 public class Json {
 
+    Menu menu;
+
+    @Autowired
+    public void setMenu(Menu menu) {
+        this.menu = menu;
+    }
+
     public void jsonMenu(KeresFeldolgozo keresFeldolgozo) throws IOException {
 
         String CalculatorJson = "{ \"muvelet\" : \"-\" , \"operandus1\" : 5 , \"operandus2\" : 1}";
 
         ObjectMapper objectMapper = new ObjectMapper();
 
-        Menu menu = new Menu();
         menu.allMenu(objectMapper, CalculatorJson, keresFeldolgozo);
     }
 }

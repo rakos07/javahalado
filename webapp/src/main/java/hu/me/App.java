@@ -20,6 +20,9 @@ public class App implements CommandLineRunner {
     UsernameValidatorNoSpace usernameValidatorNoSpace;
     PasswordValidatorNoSpace passwordValidatorNoSpace;
 
+    UserControllerImpl userController;
+    UserDTO userDTO;
+
     @Autowired
     public void setUsernameValidatorNull(UsernameValidatorNull usernameValidatorNull) {
         this.usernameValidatorNull = usernameValidatorNull;
@@ -50,6 +53,16 @@ public class App implements CommandLineRunner {
         this.passwordValidatorNoSpace = passwordValidatorNoSpace;
     }
 
+    @Autowired
+    public void setUserController(UserControllerImpl userController) {
+        this.userController = userController;
+    }
+
+    @Autowired
+    public void setUserDTO(UserDTO userDTO) {
+        this.userDTO = userDTO;
+    }
+
 
     public static void main(String[] args)  {
         SpringApplication.run(App.class, args);
@@ -72,63 +85,66 @@ public class App implements CommandLineRunner {
 
             List<ErrorMessage> messages;
 
-            UserControllerImpl controller = new UserControllerImpl(validators);
             Scanner sc = new Scanner(System.in);
 
-            while (run) {
 
-                System.out.println("\nMenu (1-3)");
-                System.out.println("1 - Adatok felvitele");
-                System.out.println("2 - Eddig felvitt adatok kiírása");
-                System.out.println("3 - Kilepes");
+            try {
+                while (true) {
 
-                try {
-                    choose = Integer.parseInt(sc.nextLine());
-                }
-                catch (NumberFormatException e) {}
-                switch(choose){
-                    case 1: {
+                    System.out.println("\nMenu (1-3)");
+                    System.out.println("1 - Adatok felvitele");
+                    System.out.println("2 - Eddig felvitt adatok kiírása");
+                    System.out.println("0 - Kilepes");
 
-                        boolean error = false;
+                    choose = sc.nextInt();
+                    switch (choose) {
+                        case 1:
 
-                        UserDTO userDTO = new UserDTO();
-                        System.out.println("Felhasználónevet kérek! (Min 6 karakter, Space-t nem tartalmazhat)");
-                        String username = sc.nextLine();
-                        userDTO.setUsername(username);
-                        System.out.println("Jelszót kérek! (Min 6 karakter, Space-t nem tartalmazhat)");
-                        String password = sc.nextLine();
-                        userDTO.setPassword(password);
+                            boolean error = false;
+
+                            System.out.println("Felhasználónevet kérek! (Min 6 karakter, Space-t nem tartalmazhat)");
+                            sc.nextLine();
+                            userDTO.setUsername(sc.nextLine());
+
+                            System.out.println("Jelszót kérek! (Min 6 karakter, Space-t nem tartalmazhat)");
+                            userDTO.setPassword(sc.next());
 
 
-                        messages = controller.saveUser(userDTO);
-                        if (!(messages.isEmpty())){
-                            error = true;
-                        }
-
-                        if (!error) {
-                            System.out.println("Sikeres felvitel!");
-                        }
-                        else {
-                            System.out.println("Sikertelen felvitel! Hibak:");
-                            for ( ErrorMessage message : messages ){
-                                System.out.println(message);
+                            messages = userController.saveUser(userDTO);
+                            if (!(messages.isEmpty())) {
+                                error = true;
                             }
-                        }
-                        break;
+
+                            if (!error) {
+                                System.out.println("Sikeres felvitel!");
+                            }
+                            else {
+                                System.out.println("Sikertelen felvitel! Hibak:");
+                                for (ErrorMessage message : messages) {
+                                    System.out.println(message);
+                                }
+                            }
+
+                            break;
+
+                        case 2:
+                            for (UserDTO i : userController.getUserDTOStore()) {
+                                System.out.println(i);
+                            }
+
+                            break;
+
+                        case 0:
+                            sc.close();
+                            System.exit(0);
+
+                            break;
+
+                        default:
+                            System.out.println("Nincs ilyen menüpont!");
                     }
-                    case 2: {
-                        for (UserDTO i : controller.getUserDTOStore()) {
-                            System.out.println(i);
-                        }
-                        break;
-                    }
-                    case 3: {
-                        sc.close();
-                        run = false;
-                        break;
-                    }
-                    default: System.out.println("Nincs ilyen menüpont!");
                 }
+            }catch (NumberFormatException e) {
             }
 
 

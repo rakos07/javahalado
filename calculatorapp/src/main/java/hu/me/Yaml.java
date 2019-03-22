@@ -10,6 +10,13 @@ import java.io.IOException;
 @Service
 public class Yaml {
 
+    Menu menu;
+
+    @Autowired
+    public void setMenu(Menu menu) {
+        this.menu = menu;
+    }
+
     public void yamlmenu(KeresFeldolgozo keresFeldolgozo) throws IOException {
 
         ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
@@ -19,7 +26,6 @@ public class Yaml {
                         "operandus1: 5\n" +
                         "operandus2: 1";
 
-        Menu menu = new Menu();
         menu.allMenu(objectMapper, CalculatorYaml, keresFeldolgozo);
 
 
