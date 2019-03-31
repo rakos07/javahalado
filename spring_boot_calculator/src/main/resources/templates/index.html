@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Számológép</title>
+    <style>
+        .field-error{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post" th:object="${inputValues}">
+        <table border="0" align="center" width="25%">
+            <tr>
+                <td width="40%">
+                    First number
+                </td>
+                <td width="60%">
+                    <input style="width: 100%;" type="number" th:field="*{number1}" th:class="${#fields.hasErrors('number1')}? field-error" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p th:if="${#fields.hasErrors('number1')}" th:errors="*{number1}">Az első szám hibás!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Operation:
+                </td>
+                <td>
+                    <select style="height: 20px; width: 100%" th:field="*{operation}" th:class="${#fields.hasErrors('operation')}? field-error">
+                        <option th:value="'add'" th:text="'Addition '"></option>
+                        <option th:value="'subtract'" th:text="'Subtraction'"></option>
+                        <option th:value="'multiply'" th:text="'Multiplication '"></option>
+                        <option th:value="'divide'" th:text="'Division '"></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p th:if="${#fields.hasErrors('operation')}" th:errors="*{operation}">Hibás müveleti jel!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Second number:
+                </td>
+                <td>
+                    <input style="width: 100%" type="number" th:field="*{number2}" th:class="${#fields.hasErrors('number2')}? field-error" required="required">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p th:if="${#fields.hasErrors('number2')}" th:errors="*{number2}">A második szám hibás!</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input style="height: 40px; width: 100%" type="submit" value="Calculate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Result :
+                </td>
+                <td>
+                    <span th:text="${result}"></span>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    <br>Log : <span th:text="${logs}"></span>
+
+
+</body>
+</html>

@@ -1,5 +1,8 @@
 package hu.me;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class InputValues {
 
     private String muvelet = null;

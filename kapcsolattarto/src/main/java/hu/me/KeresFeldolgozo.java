@@ -1,21 +1,32 @@
 package hu.me;
 
-import hu.me.logika.Calculator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class KeresFeldolgozo {
 
     Calculator calculator;
 
+    @Autowired
+    public void setCalculator(Calculator calculator) {
+        this.calculator = calculator;
+    }
+
+    @Autowired
     public KeresFeldolgozo(Calculator calculator) {
         this.calculator = calculator;
     }
 
+    @Autowired
     public OutputValues feldolgoz(InputValues input) {
         OutputValues outputValues = new OutputValues();
 
-        if(input != null || input.getMuvelet() != null || input.getMuvelet().isEmpty()) {
-            outputValues.setHibakod(Hibakod.HibasMuveletiJel);
+        if(input.getMuvelet() == null || input.getMuvelet().isEmpty() || input.getOperandus1() == 0.0 || input.getOperandus2() == 0.0) {
+            outputValues.setHibaszoveg(Hibaszoveg.HibasAdat);
+            outputValues.setHibakod(1);
         }
+
 
         if("+".equals(input.getMuvelet())) {
             outputValues.setEredmeny(
@@ -24,7 +35,8 @@ public class KeresFeldolgozo {
                             input.getOperandus2()
                     )
             );
-            outputValues.setHibakod(Hibakod.NincsHiba);
+            outputValues.setHibaszoveg(Hibaszoveg.NincsHiba);
+            outputValues.setHibakod(0);
         }
 
         if("-".equals(input.getMuvelet())) {
@@ -34,7 +46,8 @@ public class KeresFeldolgozo {
                             input.getOperandus2()
                     )
             );
-            outputValues.setHibakod(Hibakod.NincsHiba);
+            outputValues.setHibaszoveg(Hibaszoveg.NincsHiba);
+            outputValues.setHibakod(0);
         }
 
         if("*".equals(input.getMuvelet())) {
@@ -44,7 +57,8 @@ public class KeresFeldolgozo {
                             input.getOperandus2()
                     )
             );
-            outputValues.setHibakod(Hibakod.NincsHiba);
+            outputValues.setHibaszoveg(Hibaszoveg.NincsHiba);
+            outputValues.setHibakod(0);
         }
 
         if("/".equals(input.getMuvelet())) {
@@ -54,11 +68,17 @@ public class KeresFeldolgozo {
                             input.getOperandus2()
                     )
             );
+            outputValues.setHibaszoveg(Hibaszoveg.NincsHiba);
+            outputValues.setHibakod(0);
         }
 
+        if("/".equals(input.getMuvelet())) {
+            if(input.getOperandus1() == 0.0 || input.getOperandus2() == 0.0){
+                outputValues.setHibaszoveg(Hibaszoveg.NullavalValoOsztas);
+                outputValues.setHibakod(2);
+            }
+        }
 
         return outputValues;
     }
 }
-
-//ha a dobott kivétel nullával való osztás, akkor válaszkódba új hibakódtípus

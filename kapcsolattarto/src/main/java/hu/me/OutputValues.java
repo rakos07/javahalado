@@ -1,10 +1,13 @@
 package hu.me;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class OutputValues {
 
     private double eredmeny;
-    private Hibakod hibakod;
-    private String hibaszoveg;
+    private Hibaszoveg hibaszoveg;
+    private int hibakod;
 
     public double getEredmeny() {
         return eredmeny;
@@ -14,19 +17,19 @@ public class OutputValues {
         this.eredmeny = eredmeny;
     }
 
-    public Hibakod getHibakod() {
-        return hibakod;
-    }
-
-    public void setHibakod(Hibakod hibakod) {
-        this.hibakod = hibakod;
-    }
-
-    public String getHibaszoveg() {
+    public Hibaszoveg getHibaszoveg() {
         return hibaszoveg;
     }
 
-    public void setHibaszoveg(String hibaszoveg) {
+    public void setHibaszoveg(Hibaszoveg hibaszoveg) {
         this.hibaszoveg = hibaszoveg;
+    }
+
+    public int getHibakod() {
+        return hibakod;
+    }
+
+    public void setHibakod(int hibakod) {
+        this.hibakod = hibakod;
     }
 }

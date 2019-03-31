@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/calculatorapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kapcsolattarto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logika-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/object_mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_boot_calculator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webapp" charset="UTF-8" />
   </component>
 </project>
