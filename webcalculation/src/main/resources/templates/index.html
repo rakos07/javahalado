@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        .field-error{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <form action="#" method="post" th:object="${input}">
+            <tr>
+                <td>
+                    Operator:
+                </td>
+                <td>
+                    <select style="width:100%" th:field="*{operations}" th:class="${#fields.hasErrors('operations')}? field-error">
+                        <option value="" selected >Operator</option>
+                        <option th:each="operator : ${operations}" th:value="${operator}" th:text="${operator}"></option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+            <p th:if="${#fields.hasErrors('operations')}" th:errors="*{operations}"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number1:
+                </td>
+                <td>
+                    <input type="number" th:field="*{num1}" th:class="${#fields.hasErrors('num1')}? field-error" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <p th:if="${#fields.hasErrors('num1')}" th:errors="*{num1}">Invalid Number1!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number2:
+                </td>
+                <td>
+                    <input type="number" th:field="*{num2}" th:class="${#fields.hasErrors('num2')}? field-error" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <p th:if="${#fields.hasErrors('num2')}" th:errors="*{num2}">Invalid Number2!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ID:
+                </td>
+                <td>
+                    <input type="number" th:field="*{userID}" th:class="${#fields.hasErrors('userID')}? field-error" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <p th:if="${#fields.hasErrors('userID')}" th:errors="*{userID}">Invalid ID!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Username:
+                </td>
+                <td>
+                    <input type="text" th:field="*{userName}" th:class="${#fields.hasErrors('userName')}? field-error" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <p th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}">Invalid Username!</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    User age:
+                </td>
+                <td>
+                    <input type="number" th:field="*{userAge}" th:class="${#fields.hasErrors('userAge')}? field-error" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <p th:if="${#fields.hasErrors('userAge')}" th:errors="*{userAge}">Invalid User age!</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2">
+                    <input style="width:100%" type="submit" value="Calculate">
+                </td>
+            </tr>
+        </form>
+    </table>
+    <br>Result : <span th:text="${result}"></span>
+    <br>Log : <br><span th:text="${log}"></span>
+    <br>User's calculations : <span th:text="${userData}"></span>
+</body>
+</html>

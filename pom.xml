@@ -11,6 +11,7 @@
 		<module>jarmu_app</module>
 		<module>jarmu_logika</module>
 		<module>jarmu_values</module>
+		<module>webcalculation</module>
 	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
